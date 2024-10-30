@@ -1,0 +1,43 @@
+.draggable{
+    cursor: pointer;
+    width: 200;
+    margin-top: 200;
+    margin-left: -50;
+}
+
+.droppable{
+    width: 300;
+    position: absolute;
+}
+
+.trash{
+    margin-left: -600;
+    margin-top: 250;
+}
+
+.plate{
+    margin-left: 400;
+    margin-top: 300;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+    margin: auto;
+    display: block;
+}
+
+#timer{
+    font-size: 25pt;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
